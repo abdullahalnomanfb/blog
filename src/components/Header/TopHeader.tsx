@@ -5,7 +5,7 @@ const TopHeader = () => {
     <div>
       <div className="bg-primary-1">
         <div className="flex justify-between container text-white py-[13px]">
-          {/* left  */}
+          {/* left */}
           <div className="flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +20,7 @@ const TopHeader = () => {
               />
             </svg>
             <a
-              href="tel:+880 1750 020408"
+              href="tel:+8801750020408"
               className="lg:text-xs text-[10px] lg:text-[14px] font-[450] ml-1 text-white"
             >
               +880 1750 020408
@@ -48,9 +48,9 @@ const TopHeader = () => {
 
           {/* right */}
           <div className="flex">
-            <a href="https://www.facebook.com/mediusware/" target="_blank">
+            <a href="https://www.facebook.com/mediusware/" target="_blank" rel="noopener noreferrer">
               <img
-                src="/public/Header/facebook.svg"
+                src="/Header/facebook.svg"
                 className="lg:mr-2 mr-1"
                 alt="Facebook Logo - Link to Mediusware Facebook Page"
                 height={17}
@@ -61,10 +61,10 @@ const TopHeader = () => {
             <a
               href="https://www.linkedin.com/company/mediusware-ltd/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img
-                src="/public/Header/linkedin.svg"
-                // src="/src/assets/Header/linkedin.svg"
+                src="/Header/linkedin.svg"
                 className="lg:mr-2 mr-1"
                 alt="Linkedin Logo - Link to Mediusware Linkedin Profile"
                 height={17}
